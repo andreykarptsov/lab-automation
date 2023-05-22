@@ -1,1 +1,1 @@
-# lab-automation
+# Andrey Karptsov
