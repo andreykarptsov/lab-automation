@@ -1,8 +1,11 @@
 console.log('load title here')
 
 const testUrl = 'testURL';
-fetch(testUrl).then((data)=>{
-    console.log(data.title)
-}).catch((err)=>{
-    console.error(err)
-})
+// add try catch
+try {
+    fetch(testUrl).then((data)=>{
+        console.log(data.title)
+    }) 
+} catch (error) {
+    console.log(error)
+}
